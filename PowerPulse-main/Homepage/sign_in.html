@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="sign_in_style.css">
+</head>
+<body>
+    <nav>
+        <a href="http://localhost/PowerPulse-main/Homepage/Home.php" target="_self"><div class="logo">PWRpulse</div></a>
+        <div class="nav-items">
+            <a href="http://localhost/PowerPulse-main/Homepage/Diets.php">Diets</a>
+            <a href="http://localhost/PowerPulse-main/Homepage/Exercise.php">Exercises</a>
+            <a href="http://localhost/PowerPulse-main/Homepage/Quiz.php">Take Quiz</a>
+        </div>
+    </nav>
+    <div class="center-container">
+        <div class="signup-container">
+            <h2>Login</h2>
+            <p>Don't have an account? <a href="sign_up.html">Create one</a></p>
+            <form action="http://localhost/PowerPulse-main/Homepage/Signin.php" method="POST">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                <button type="submit">Log in</button>
+            </form>
+        </div>
+    </div>
+</body>
+<div>
+    <a href="https://teamtrees.org"><input type="image" src="images/tree.jpg" width="1px" height="1px" style="align-self: center;  border-radius: 360px;"></a>    
+</div>
+</html>
